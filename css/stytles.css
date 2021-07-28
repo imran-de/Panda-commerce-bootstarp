@@ -1,0 +1,75 @@
+/* font import  */
+/* poppins & inter fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+
+/* universal style */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Inter', sans-serif;;
+    font-weight: 400;
+}
+ 
+.search-box{
+    background-color: white;
+    border-radius: 66px;
+}
+.search-box input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-top-left-radius:66px;
+    border-bottom-left-radius: 66px;
+    color: #BABABA;
+    outline: none;
+}
+.search-box button{
+    border: none;
+    background-color: white;
+    padding-right: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 66px;
+    border-bottom-right-radius: 66px;
+    color: #BABABA;
+}
+.panda-slider-bg{
+    background-color: #FEEAE9;
+}
+.shoes{
+    padding-bottom:70px;
+}
+.backpacks{
+    padding-bottom:98px;
+}
+.bg-white-gray{
+    background-color: #F4F4F4;
+}
+.btn:hover .fa-arrow-right{
+    transform: translateX(10px);
+    transition: transform 2s;
+    color: burlywood;
+}
+.card{
+    border-radius: 20px!important;
+}
+.bg-light-pink{
+    background-color: #FFF2F1;
+}
+.form-control{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.btn-get-email{
+    border: none;
+    color: white;
+    padding-left: 48px;
+    padding-right: 48px;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+}
+.lead-container{
+    height: 455px;
+}
